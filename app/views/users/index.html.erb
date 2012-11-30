@@ -1,0 +1,8 @@
+<h1>Users#index</h1>
+<p><%= notice %></p>
+
+<ol>
+<% @users.each do |user| %>
+  <li><%= user.email %></li>
+<% end %>
+</ol>
